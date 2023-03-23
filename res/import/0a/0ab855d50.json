@@ -1508,18 +1508,18 @@
       "name": "西瓜1",
       "texture": "50NSZsjfNCNo2Co3Xpeg2c",
       "rect": [
-        2,
-        2,
-        404,
-        404
+        0,
+        0,
+        160,
+        160
       ],
       "offset": [
         0,
         0
       ],
       "originalSize": [
-        408,
-        408
+        160,
+        160
       ],
       "capInsets": [
         0,
@@ -1857,16 +1857,16 @@
       "rect": [
         0,
         0,
-        308,
-        308
+        280,
+        280
       ],
       "offset": [
         0,
         0
       ],
       "originalSize": [
-        308,
-        308
+        280,
+        280
       ],
       "capInsets": [
         0,
