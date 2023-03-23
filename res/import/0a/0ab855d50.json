@@ -812,10 +812,10 @@
       "name": "樱桃",
       "texture": "0cuz27KoVCpb4hmDlhHlr3",
       "rect": [
-        1,
-        1,
-        78,
-        78
+        0,
+        0,
+        80,
+        80
       ],
       "offset": [
         0,
