@@ -371,7 +371,7 @@ window.__require = function e(t, n, o) {
       i = a.ccclass,
       r = a.property,
       s = function () {
-        return function () {
+          return function () {
           this.isFirstPlay = !0, this.score = 0, this.highScore = 0, this.goldCount = 0, this.playLevel = 1, this.maxFruitId = 2, this.successful = !1, this.currentLevelInfo = null, this.playCount = 0, this.guideTime = 0
         }
       }(),
@@ -406,7 +406,7 @@ window.__require = function e(t, n, o) {
           return this.playerData.goldCount
         }, t.prototype.SetPlayerScore = function (e) {
           this.playerData.score = e, this.Save()
-        }, t.prototype.GetPlayerScore = function () {
+        }, t.prototype.GetPlayerScore= function () {
           return this.playerData.score
         }, t.prototype.SetPlayerHighScore = function (e) {
           this.playerData.highScore = e, this.Save()
@@ -2004,7 +2004,11 @@ window.__require = function e(t, n, o) {
             if(gameFunction.default.Instance.targetFruit) {
               gameFunction.default.Instance.targetFruit.destroy();
               gameFunction.default.Instance.targetFruit = null;
-              gameFunction.default.Instance.createOneFruit(Math.floor(Math.random()*6));
+                gameFunction.default.Instance.createOneFruit(Math.floor(Math.random() * 6));
+                if (a.score - 5 < 0) {
+                    a.score = 0;
+                }
+                else { a.score -= 5;}
             }
             return;
           }
