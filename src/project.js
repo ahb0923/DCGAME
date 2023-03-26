@@ -2005,10 +2005,10 @@ window.__require = function e(t, n, o) {
               gameFunction.default.Instance.targetFruit.destroy();
               gameFunction.default.Instance.targetFruit = null;
                 gameFunction.default.Instance.createOneFruit(Math.floor(Math.random() * 6));
-                if (a.default.score - 5 < 0) {
-                    a.deafult.score = 0;
+                if (a.currentScore - 5 < 0) {
+                    a.currentScore = 0;
                 }
-                else { a.deafult.score -= 5;}
+                else { a.currentScore -= 5;}
             }
             return;
           }
